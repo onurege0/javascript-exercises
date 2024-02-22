@@ -66,13 +66,27 @@ for (let i = 3; i < 29; i++) {
   }
 }
 
-function showOddNum (arr) {
-    for (let i = 0; i < arr.length; i++) {
-        if (i % 2 !== 0) {
-          console.log(arr[i]);
-        }
-      }
+function showOddNum(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    if (i % 2 !== 0) {
+      console.log(arr[i]);
+    }
+  }
 }
 
 // showOddNum([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11])
 
+const arr1 = [2, 3, 13, 18, -5, 38, -10, 11, 0, 104];
+const evens = [];
+const odds = [];
+
+for (let i = 0; i < arr1.length; i++) {
+  if (arr1[i] % 2 === 0) {
+    evens.push(arr1[i]);
+  } else if (arr1[i] % 2 !== 0) {
+    odds.push(arr1[i]);
+  }
+}
+
+// console.log(evens);
+// console.log(odds);
