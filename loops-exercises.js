@@ -45,7 +45,7 @@ function printSentence(sen) {
 // printSentence(sentence);
 
 function searchElementInArr(arr, element) {
-//   let searchTerm = element;
+  //   let searchTerm = element;
   let result = null;
   for (let i = 0; i < arr.length; i++) {
     if (element === arr[i]) {
@@ -58,4 +58,21 @@ function searchElementInArr(arr, element) {
   }
 }
 
-searchElementInArr(arr, 6);
+// searchElementInArr(arr, 6);
+
+for (let i = 3; i < 29; i++) {
+  if (i % 2 === !0) {
+    console.log(i);
+  }
+}
+
+function showOddNum (arr) {
+    for (let i = 0; i < arr.length; i++) {
+        if (i % 2 !== 0) {
+          console.log(arr[i]);
+        }
+      }
+}
+
+// showOddNum([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11])
+
