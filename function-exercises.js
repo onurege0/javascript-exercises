@@ -38,3 +38,10 @@ function countVowel(string) {
 }
 
 // console.log(countVowel("araba bisiklet tesla javascript kodlama"));
+
+
+function genRandomNum (startNum, endNum) {
+    return Math.floor(Math.random() * (endNum - startNum + 1)) + startNum
+}
+
+console.log(genRandomNum(50, 100));
